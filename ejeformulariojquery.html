@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Starter Template - Materialize</title>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <!-- swiper -->
+        <link rel="stylesheet" href="swiper/css/swiper.css">
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <!-- Materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+        <!-- swiper -->
+        <script src="swiper/js/swiper.js"></script>    
+        
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper('.swiper-container');
+        </script>
+    </head>
+    <!-- Demo styles -->
+    <style>
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 500px;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>   
+    <body style="background: white">
+        <nav class="orange" role="navigation ">
+           <div class="nav-wrapper container" style="text-align: center"><a style="font-size: 40px; color: black"> FORMULARIO BIT</a>
+           </div>  
+        </nav> 
+       <br><br>
+       <br><br>
+       <br><br>
+       <div class="container">
+           <div class="row">
+               <div class="input-field col s6">
+                   <i class="material-icons prefix">perm_identity</i>
+                   <input id="textNombre" placeholder="Ingrese su Nombre" type="text" class="validate" minlength="3" maxlength="20">
+                   <label for="textNombre" data-success="Completado">Nombre</label>
+               </div>
+               <div class="input-field col s6">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input id="textApellido" placeholder="Ingrese su Apellido" type="text" class="validate" minlength="3" maxlength="20">
+                    <label for="textApellido" data-success="Completado">Apellido</label>
+               </div>
+               <br><br>
+               <br><br>
+               <br><br>
+               <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="textEmail" placeholder="Ingrese su Email" type="email" class="validate" minlength="3" maxlength="25">
+                    <label for="textEmail" data-success="Completado">Email</label>
+               </div>
+               <div class="input-field col s6">
+                    <i class="material-icons prefix">assignment_ind</i>
+                    <input id="textEdad" placeholder="Ingrese su Edad" type="text" class="validate" minlength="1" maxlength="2">
+                    <label for="textEdad" data-success="Completado">Edad</label>
+               </div>
+           </div>
+       </div>
+     <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+    </div>
+
+    </body>
+</html>
